@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ileco1_fin *.css
+recursive-include ileco1_fin *.csv
+recursive-include ileco1_fin *.html
+recursive-include ileco1_fin *.ico
+recursive-include ileco1_fin *.js
+recursive-include ileco1_fin *.json
+recursive-include ileco1_fin *.md
+recursive-include ileco1_fin *.png
+recursive-include ileco1_fin *.py
+recursive-include ileco1_fin *.svg
+recursive-include ileco1_fin *.txt
+recursive-exclude ileco1_fin *.pyc
